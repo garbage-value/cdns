@@ -1,0 +1,191 @@
+.blog-post a {
+    color: #343434;
+    border-bottom: 2px Solid #44be9b;
+    background-color: #e7faf3;
+    transition: 100ms ease-in-out;
+}
+.blog-post a:hover{
+    background-color: #c9f5e9;
+}
+
+.blog-post h1 {
+    font-size: 40px;
+}
+
+.blog-post h2 {
+    font-size: 32px;
+}
+
+.blog-post h3 {
+    font-size: 26px;
+}
+
+.blog-post h4 {
+    font-size: 22px;
+}
+
+.blog-post p {
+    color: #343434;
+    line-height: 1.6;
+    font-size: 21px;
+    overflow-wrap: break-word;
+}
+
+.blog-post li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    font-size: 21px;
+    overflow-wrap: break-word;
+}
+
+.blog-post figure {
+    margin: 0px;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.2, 0, 0.2, 1);
+    transition-delay: 0s;
+}
+.blog-post figcaption {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 12px;
+}
+
+.blog-post img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-post .image-placeholder {
+    background-color: #F1F1FA;
+    min-height: 300px;
+}
+
+.blog-post blockquote {
+    border-left: 3px Solid #44be9b;
+    padding: 12px;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #f7fffd;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 551.98px) {
+    .blog-post p {
+        color: #343434;
+        line-height: 1.5;
+        font-size: 18px;
+        overflow-wrap: break-word;
+    }
+    .blog-post li {
+        margin-bottom: 8px;
+        line-height: 1.5;
+        font-size: 18px;
+        overflow-wrap: break-word;
+    }
+    .blog-post blockquote {
+        font-size: 17px;
+        line-height: 1.5;
+        margin: 8px
+    }
+    .blog-post h1 {
+        font-size: 28px;
+    }
+
+    .blog-post h2 {
+        font-size: 26px;
+    }
+
+    .blog-post h3 {
+        font-size: 24px;
+    }
+
+    .blog-post h4 {
+        font-size: 21px;
+    }
+}
+
+.blog-post pre code {
+    font-size: 14px;
+}
+
+.blog-post p code {
+    font-size: 18px;
+    padding: 0 6px;
+    background-color: #e2e2e2;
+}
+
+.blog-post pre{
+    background-color: #eff0f1;
+    padding: 16px;
+    border-radius: 4px;
+    overflow: auto;
+    font-size: 14px;
+    margin-bottom: 4.1rem;
+    padding: 3.7rem 0 1.6rem .4rem;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: url(https://ik.imagekit.io/garbagevalue/garbage/window-buttons_gt8xoXxWn.png);
+    background-repeat: no-repeat;
+    background-size: 44px 10px;
+    background-position: 16px 14px;
+}
+
+.blog-post code {
+    width: 100%;
+    font-size: 14px;
+}
+
+.blog-post h1[id],
+.blog-post h2[id],
+.blog-post h3[id],
+.blog-post h4[id],
+.blog-post h5[id],
+.blog-post h6[id]{
+    padding-top: 90px;
+    margin-top: -45px;
+}
+
+.blog-post *[id] a:not(div):not(ins):not(iframe)
+{
+    border-bottom: 0px;
+    color: #343434;
+    background-color: transparent;
+}
+
+.blog-post *[id]:not(div):not(ins):not(iframe):hover::after{
+    content: "  \0B6  ";
+    visibility: visible;
+    transition-duration: 500ms;
+}
+
+.blog-post *[id]:not(div):not(ins):not(iframe)::after{
+    content: "  \0B6  ";
+    visibility: hidden;
+}
+
+
+.absolute-center {
+    position: fixed;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#table-of-content-wrapper {
+    background-color: #f9f9f9;
+    padding: 16px 16px 16px 8px;
+    border-radius: 12px;
+}
+
+#table-of-content-wrapper ul li {
+    list-style: square;
+}
+
+#table-of-content-wrapper li {
+    margin-top: 12px;
+    font-size: 18px;
+}
